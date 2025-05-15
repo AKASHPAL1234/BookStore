@@ -5,7 +5,7 @@ import Coures from "./component/coureses/Coures";
 import Signup from "./component/Signup";
 import Contact from "./component/Contect";
 import  { Toaster } from 'react-hot-toast';
-import { useAuth } from "./context/Authprovider";
+import { useAuth } from "./context/AuthProvider";
 
 
 function App() {
