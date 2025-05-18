@@ -11,7 +11,7 @@ function Course() {
   useEffect(() => {
     const getBook = async () => {
       try {
-        const res = await axios.get("http://localhost:4001/book");
+        const res = await axios.get("https://bookstoree-bcm6.onrender.com/book");
         console.log(res.data);
         setBook(res.data);
       } catch (error) {
@@ -26,7 +26,7 @@ function Course() {
 
   return (
     <>
-    <div>
+    <div className="dark:bg-slate-900 dark:text-white">
       <div className=" space-y-9 text-center max-w-screen-2xl container mx-auto md:px-10">
         <div className="mt-16 pt-12">
         <h1 className="text-4xl text-bold ">
