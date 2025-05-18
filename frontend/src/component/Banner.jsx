@@ -1,5 +1,6 @@
 
 import React from "react";
+import book from "../../public/book.jpg";
 function Banner() {
   return (
     <>
@@ -32,7 +33,7 @@ function Banner() {
         </div>
         <div className=" order-1 w-full mt-20 md:w-1/2">
           <img
-            src="https://cdn.creazilla.com/cliparts/39999/bookstore-clipart-md.png"
+            src={book}
             className="md:w-[550px] md:h-[460px] md:ml-12"
             alt=""
           />
